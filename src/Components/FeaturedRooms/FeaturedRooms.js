@@ -4,7 +4,7 @@ import Featured from './Featured'
 import styles from './FeaturedRooms.module.css'
 
 const FeaturedRooms = () => {
-    const { rooms, featuredRooms } = useContext(GlobalContext)
+    const { featuredRooms } = useContext(GlobalContext)
     return (
         <div className={styles.featuredroomsmain}>
             <h2 className={styles.featuredroomsTitle}>Featured Rooms</h2>

@@ -4,7 +4,7 @@ import styles from './FeaturedRooms.module.css'
 import { Link } from 'react-router-dom'
 
 const Featured = ({ item }) => {
-    const { rooms, featuredRooms, getSingleroom } = useContext(GlobalContext)
+    const { getSingleroom } = useContext(GlobalContext)
     return (
         <div>
 
@@ -12,7 +12,7 @@ const Featured = ({ item }) => {
 
                 (<div className={styles.featuredrooms}>
                     <div className={styles.featuredroomsInner}>
-                        <p className={styles.featuredPrice} >${item.price} <span className={styles.nigth}>per night</span> </p>
+                        <p className={styles.featuredPrice} >${item.price} <span className={styles.nigth}> <br />per night</span> </p>
                         <img className={styles.featuredImag} src={item.images[0]} alt={item.slug} />
                         <p className={styles.featuredName} >{item.name.toUpperCase()}</p>
                         <Link to={`/rooms/${item.slug}`}>
