@@ -12,22 +12,22 @@ const Services = () => {
                 <div className={styles.servicesIcons}>
                     <FaCocktail className={styles.iconStles} />
                     <h3>Free Coctail</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p>Lorem ipsum dolor <br /> sit amet, consectetur.</p>
                 </div>
                 <div className={styles.servicesIcons}>
                     <MdNordicWalking className={styles.iconStles} />
                     <h3>Endless Hiking</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p>Lorem ipsum dolor <br /> sit amet, consectetur.</p>
                 </div>
                 <div className={styles.servicesIcons}>
                     <AiOutlineCar className={styles.iconStles} />
                     <h3>Free Shuttle Van</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p>Lorem ipsum dolor <br /> sit  amet, consectetur.</p>
                 </div>
                 <div className={styles.servicesIcons}>
                     <FaCocktail className={styles.iconStles} />
                     <h3>Free Coctail</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p>Lorem ipsum dolor <br /> sit amet, consectetur.</p>
                 </div>
 
             </div>

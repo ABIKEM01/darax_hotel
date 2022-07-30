@@ -37,6 +37,12 @@
     color: white;
 }
 
+.navigationFlex li a:hover {
+    text-decoration: underline 2px solid orangered;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in;
+}
+
 .beach {
     border: 2px solid white;
     padding: 3px 12px;
@@ -78,8 +84,9 @@
 @media (max-width: 680px) {
     .navigationFlex {
         height: 2.5rem;
-        margin: 0;
+        margin: 0 10px;
         justify-content: space-between;
+
     }
 
     .navigationFlex li {
