@@ -28,8 +28,7 @@
 }
 
 .roomsHr {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 1rem 0;
     border: 3px solid;
     color: #af9a7d;
     font-weight: bolder;
@@ -39,7 +38,8 @@
 .roomsRoom {
     color: white;
     font-size: 1.5rem;
-    margin-top: 0;
+    margin-bottom: 1rem;
+
 }
 
 .roomsBtn {
