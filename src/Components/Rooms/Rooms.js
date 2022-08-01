@@ -8,7 +8,6 @@ const Rooms = () => {
     const { rooms, maxPrice, maxSize, price, capacity, size, pets, breakfast, type, changeHandler, getSingleroom, minSize } = useContext(GlobalContext)
     let majorTypes = rooms.map((room) => room.type)
     majorTypes = new Set(majorTypes)
-    console.log('types', majorTypes)
     majorTypes = ['all', ...majorTypes]
 
     const types = majorTypes.map((type, i) => (<option key={i} value={type}>{type}</option>))
@@ -17,8 +16,6 @@ const Rooms = () => {
     let majorCapacity = rooms.map((room) => room.capacity)
     majorCapacity = new Set(majorCapacity)
     majorCapacity = [...majorCapacity]
-    console.log('capacity', majorCapacity)
-
 
     const Capacity = majorCapacity.map((capacity, i) => (<option key={i} value={capacity}>{capacity}</option>))
     return (

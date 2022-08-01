@@ -57,7 +57,6 @@ const Provider = ({ children }) => {
         })
         localStorage.setItem('rooms', JSON.stringify(rooms))
     }
-    console.log('my copy', state.featuredRooms)
     const changeHandler = (e) => {
         const type = e.target.type;
         const name = e.target.name;

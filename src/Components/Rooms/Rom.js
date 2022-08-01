@@ -16,7 +16,7 @@ const Rom = ({ item }) => {
                         <Link to={`/rooms/${item.slug}`}>
                             <p className={styles.featuredBtn} onClick={() => getSingleroom(item.slug)}>FEATURES</p>
                         </Link>
-
+  
                     </div>
                 </div>)
             }
