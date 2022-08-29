@@ -11,6 +11,8 @@ const Mobile = () => {
                 <li className={styles.roomsMobile}><Link to='/rooms'>Services</Link></li>
                 <li className={styles.roomsMobile}><Link to='/rooms'>Gallery</Link></li>
                 <li className={styles.roomsMobile}><Link to='/rooms'>Contact</Link></li>
+                <li className={styles.roomsMobile}><Link to='/booking'>Booking</Link></li>
+                <li className={styles.roomsMobile}><Link to='/dashboard'>Dashboard</Link></li>
             </ul>
         </div>
     )

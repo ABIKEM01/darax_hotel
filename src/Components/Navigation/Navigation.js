@@ -16,9 +16,11 @@ const Navigation = () => {
                 <li className={styles.beach}><Link to='/'>Darax  <span className={styles.beachResort}>Resort</span></Link></li>
                 <li className={styles.home}><Link to='/'>Home</Link></li>
                 <li className={styles.rooms}><Link to='/rooms'>Rooms</Link></li>
+                <li className={styles.rooms}><Link to='/booking'>Booking</Link></li>
                 <li className={styles.rooms}><Link to='/rooms'>Services</Link></li>
                 <li className={styles.rooms}><Link to='/rooms'>Gallery</Link></li>
-                <li className={styles.rooms}><Link to='/rooms'>Contact</Link></li>
+                <li className={styles.rooms}><Link to='/receipt'>Dashboard</Link></li>
+                <li className={styles.rooms}><Link to='/dashboard'>Dash</Link></li>
                 <li><GiHamburgerMenu className={styles.hamburger} onClick={handleToggle} /></li>
             </ul>
             <span></span>

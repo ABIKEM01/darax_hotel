@@ -6,7 +6,6 @@ import styles from './Room.module.css'
 
 const Room = () => {
     const { rooms, filteredRooms } = useContext(GlobalContext)
-    console.log('my room', rooms)
     return (
         <div className={styles.featuredroomsmain}>
             <h2 className={styles.featuredroomsTitle}>Featured Rooms</h2>
